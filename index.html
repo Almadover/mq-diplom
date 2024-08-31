@@ -47,43 +47,42 @@
     </header>
     <main class="main">
         <div class="pop-up visually-hidden">
-            <div class="pop-up-conteiner">
-                <div class="feedback">
-                    <h2 class="feedback-title">Ваш фидбэк</h2>
-                    <form class="feedback-form">
-                        <div class="form-row">
-                            <label class="form-label" for="form-id">Как часто вы заходите на сайт?</label>
-                            <select class="select-form" id="form-id">
-                                <option selected>Почти каждый день</option>
-                                <option>Раз в несколько дней</option>
-                                <option>Раз в несколько недель</option>
-                                <option>Несколько раз в год</option>
-                            </select>
-                        </div>
-                        <div class="form-row">
-                            <span class="form-hint">Вы подписаны на e-mail рассылку</span>
-                            <label class="radio-group">
-                                <input type="radio" class="radio" name="radio-group" checked>
-                                <span class="radio-group-text">Да</span>
-                            </label>
-                            <label class="radio-group">
-                                <input type="radio" class="radio" name="radio-group" checked>
-                                <span class="radio-group-text">Нет</span>
-                            </label>
-                        </div>
-                        <div class="form-row">
-                            <label class="form-label">Расскажите, какой контент вы хотели бы видеть на нашем сайте?
-                                <textarea class="form-area">Может больше рецептов?</textarea>
-                            </label>
-                        </div>
-                        <button class="send-button">Отправить</button>
-                    </form>
-                </div>
-                <button class="popup-close" type="button">
-                    <img class="popup-close-img" src="svg/form-x.svg" alt="Кнопка закрыть окно">
-                </button>
-            </div>
-        </div>
+			<div class="pop-up-container">
+				<div class="feedback">
+					<h2 class="section-title">Ваш фидбек</h2>
+					<form class="feedback-form">
+						<div class="form-row">
+							<label class="form-label" for="question-select-id">Как часто вы заходите на сайт?</label>
+							<select class="question-select" for="question-select-id">
+								<option selected>Почти каждый день</option>
+								<option>Почти каждую неделю</option>
+								<option>Почти каждый месяц</option>
+							</select>
+						</div>
+						<div class="form-row">
+							<span class="form-hint">Вы подписаны на e-mail рассылку?</span>
+							<label class="radio-group">
+								<input type="radio" class="radio" name="radio-group" checked>
+								<span class="radio-group-text">Да</span>
+							</label>
+							<label class="radio-group">
+								<input type="radio" class="radio" name="radio-group">
+								<span class="radio-group-text">Нет</span>
+							</label>
+						</div>
+						<div class="form-row">
+							<label class="form-label">Расскажите, какой контент вы хотели бы видеть на нашем сайте?
+								<textarea class="form-textarea">Может, больше рецептов?</textarea>
+							</label>
+						</div>
+						<button class="send-button" type="button">Отправить</button>
+					</form>
+				</div>
+
+				<button class="popup-close" type="button"><img class="popup-close-img" src="svg/form-x.svg"
+						alt="Закрыть окно"></button>
+			</div>
+		</div>
         <section class="trends">
             <h2 class="title-trends">сейчас в тренде</h2>
             <div class="trends-block">
